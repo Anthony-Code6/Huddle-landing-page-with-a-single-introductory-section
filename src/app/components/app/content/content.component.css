@@ -1,0 +1,125 @@
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.titulo {
+    color: hsl(300, 69%, 120%);
+    line-height: 4rem;
+    font-size: 3.8rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.contenido {
+    color: hsl(300, 69%, 100%);
+    line-height: 2.3rem;
+    font-size: 1.947rem;
+    font-family: "Figtree", serif;
+    font-weight: 400;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .content {
+        padding-top: 3rem;
+        text-align: center !important;
+    }
+
+    .titulo {
+        line-height: 2rem !important;
+        font-size: 1.6rem !important;
+    }
+
+
+    .contenido {
+        line-height: 1.6rem !important;
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (min-width:599px) and (max-width:949px) {
+    .content {
+        text-align: center !important;
+    }
+
+    .titulo {
+        line-height: 3rem !important;
+        font-size: 2.2rem !important;
+    }
+
+    .contenido {
+        line-height: 1.4rem !important;
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (min-width:950px) and (max-width:1050px) {
+    .content {
+        text-align: center !important;
+    }
+
+    .titulo {
+        line-height: 3rem !important;
+        font-size: 3rem !important;
+    }
+
+    .contenido {
+        line-height: 2rem !important;
+        font-size: 1.6rem !important;
+    }
+
+}
+
+@media screen and (min-width:1049px) and (max-width:1389px) {
+    
+    .titulo {
+        line-height: 3rem !important;
+        font-size: 2.4rem !important;
+    }
+
+    .contenido {
+        line-height: 1.7rem !important;
+        font-size: 1.1rem !important;
+    }
+}
+
+
+@media screen and (min-width:1390px) and (max-width:1440px) {
+    .content {
+        gap: 1.3rem !important;
+    }
+
+    .titulo {
+        line-height: 3rem !important;
+        font-size: 2.2rem !important;
+    }
+
+    .contenido {
+        line-height: 2rem !important;
+        font-size: 1.23rem !important;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1656px) {
+    .content {
+        gap: 1.3rem !important;
+    }
+    
+    .titulo {
+        line-height: 3rem !important;
+        font-size: 2.97rem !important;
+    }
+
+    .contenido {
+        line-height: 2rem !important;
+        font-size: 1.3rem !important;
+    }
+}

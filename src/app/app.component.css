@@ -1,0 +1,52 @@
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 2fr 0.4fr; 
+    grid-template-areas:
+        "head head"
+        "main main"
+        "footer footer";
+    grid-gap: 10px;
+    margin: 0;
+    height: 100vh;
+    margin-inline: 3rem;
+    position: relative;
+    z-index: 10;
+}
+
+
+app-header {
+    grid-area: head;
+    z-index: 10;
+}
+
+app-home {
+    z-index: 10;
+    grid-area: main;
+}
+
+app-footer {
+    z-index: 10;
+    grid-area: footer;
+}
+
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    .contenido {
+        margin-inline: 2rem !important;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:1050px) {
+    .contenido {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: .1fr 1fr 1fr .2fr;
+        grid-template-areas:
+            "head"
+            "main"
+            "main"
+            "footer" !important;
+        margin-inline: 2rem !important;
+    }
+
+}

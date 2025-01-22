@@ -1,0 +1,22 @@
+#nav-content {
+    width: 100%;
+    max-width: 80%;
+    padding: 30px 10px;
+}
+
+#nav-logo {}
+
+#nav-logo img {
+    width: 200px;
+    height: auto;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+
+    #nav-logo img {
+        width: 150px !important;
+        height: auto;
+    }
+
+}
